@@ -1,6 +1,7 @@
 LaceUp::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
+  root :to => 'welcome#index'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
@@ -46,9 +47,6 @@ LaceUp::Application.routes.draw do
   #     resources :products
   #   end
 
-  # You can have the root of your site routed with "root"
-  # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
 
   # See how all your routes lay out with "rake routes"
 
