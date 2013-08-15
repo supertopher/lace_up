@@ -29,6 +29,10 @@ group :assets do
 end
 
 group :test, :development do
+  gem 'database_cleaner'
+  gem 'annotate'
+  gem 'quiet_assets'
+  gem 'factory_girl_rails'
   gem 'wirble'
   gem 'better_errors'
   gem 'binding_of_caller'
