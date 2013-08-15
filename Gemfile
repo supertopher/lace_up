@@ -6,6 +6,14 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+# beautiful Haml
+gem 'haml-rails'
+
+# markdown parsing
+# not currently used, saved as note
+# gem 'redcarpet'
+# gem "pygments.rb"
+# gem 'markdown-rails'
 
 
 # Gems used only for assets and not required
