@@ -11,9 +11,10 @@ gem 'haml-rails'
 
 # markdown parsing
 # not currently used, saved as note
-# gem 'redcarpet'
-# gem "pygments.rb"
-# gem 'markdown-rails'
+gem 'redcarpet'
+gem 'pygments.rb'
+gem 'markdown-rails'
+
 
 
 # Gems used only for assets and not required

@@ -1,5 +1,5 @@
 $(function() {
-    console.log( OSName );
+    console.log( "OS Detected as " + OSName );
 });
 
 var OSName="Unknown OS";
