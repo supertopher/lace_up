@@ -15,6 +15,8 @@ gem 'redcarpet'
 gem 'pygments.rb'
 gem 'markdown-rails'
 
+# gem "octokit", "~> 2.0"
+gem 'tiny_http'
 
 
 # Gems used only for assets and not required
